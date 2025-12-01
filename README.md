@@ -10,6 +10,7 @@
 [![Three.js](https://img.shields.io/badge/Three.js_CDN-0.147-000000?logo=three.js)](https://threejs.org)
 [![Lenis](https://img.shields.io/badge/Lenis-1.1-10B981?logo=scroll)](https://lenis.darkroom.engineering)
 [![Lucide](https://img.shields.io/badge/Lucide_React-0.460-000000?logo=lucide)](https://lucide.dev)
+[![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com)
 [![Vercel Demo](https://img.shields.io/badge/Vercel-Demo_Only-000000?logo=vercel)](https://bnramadan.com)
 [![Hostinger](https://img.shields.io/badge/Hostinger-Production-FF6B00?logo=hostinger)](https://hostinger.ae?REFERRALCODE=bnramadan)
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -74,7 +75,7 @@
 ### Global Localization
 
 -   **18 Supported Languages** – English, Arabic, French, German, Spanish, Japanese, Chinese, Russian, Portuguese, Turkish, Polish, Korean, Hindi, Urdu, Persian, Latin, Italian, Dutch.
--   **Smart Middleware** – Automatically redirects users based on their country (e.g., Egypt → English, Saudi Arabia → Arabic, Japan → Japanese).
+-   **Smart Middleware** – Automatically redirects users based on their country (Saudi Arabia → Arabic, Japan → Japanese, ...etc).
 -   **RTL Support** – Full Right-to-Left layout support for Arabic, Urdu, and Persian.
 -   **Localized Content** – Fully translated interface, projects, and metadata.
 
@@ -292,17 +293,38 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
 
 -   **Live:** [balyleather.net](https://balyleather.net/)
 -   **Tech Stack:**
-    ![EasyOrders](https://img.shields.io/badge/EasyOrders-Platform-FF6B6B)![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3)![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)![Secure Checkout](https://img.shields.io/badge/Secure_Checkout-SSL-4CAF50)
+    ![EasyOrders](https://img.shields.io/badge/EasyOrders-Platform-FF6B6B)
+    ![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3)
+    ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)
+    ![Secure Checkout](https://img.shields.io/badge/Secure_Checkout-SSL-4CAF50)
 -   **Features:** Handcrafted leather goods, elegant design, secure transactions, mobile optimized
 
-### 6. **Thermo Egypt** – Shopify Winter Wear Store
+### 6. **BnRamadan Portfolio** – Creative Fullstack Developer Portfolio
+
+-   **Live:** [bnramadan.com](https://bnramadan.com/en)
+-   **Source:** [GitHub](https://github.com/BnRamadan/bn-p16-My-Portfolio)
+-   **Tech Stack:**
+[![Next.js](https://img.shields.io/badge/Next.js-15.2-black?logo=next.js)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19_RC-61DAFB?logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com)
+[![GSAP](https://img.shields.io/badge/GSAP-3.12-00D084?logo=greensock)](https://gsap.com)
+[![Three.js](https://img.shields.io/badge/Three.js_CDN-0.147-000000?logo=three.js)](https://threejs.org)
+[![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com)
+[![Lucide](https://img.shields.io/badge/Lucide_React-0.460-000000?logo=lucide)](https://lucide.dev)
+
+-   **Features:** Modern, animated, high-performance personal portfolio available in +17 languages.
+
+### 7. **Thermo Egypt** – Shopify Winter Wear Store
 
 -   **Live:** [thermoegypt.com](https://thermoegypt.com)
+
 -   **Tech Stack:**
-    [![Shopify](https://img.shields.io/badge/Shopify-2025-95BF47?logo=shopify)](https://shopify.com) [![Liquid](https://img.shields.io/badge/Liquid-Templating-000000?logo=liquid)](https://shopify.github.io/liquid) ![WooCommerce Migration](https://img.shields.io/badge/WooCommerce→Shopify-Migration-FF6B6B)![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)
+    [![Shopify](https://img.shields.io/badge/Shopify-2025-95BF47?logo=shopify)](https://shopify.com) [![Liquid](https://img.shields.io/badge/Liquid-Templating-000000?logo=liquid)](https://shopify.github.io/liquid) ![WooCommerce Migration](https://img.shields.io/badge/WooCommerce→Shopify-Migration-FF6B6B)
+    ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)
 -   **Features:** Thermal clothing collections, exclusive discounts, fast checkout, fully responsive
 
-### 7. **Vllol** – Video Editing Portfolio
+### 8. **Vllol** – Video Editing Portfolio
 
 -   **Live:** [vllol.com](https://vllol.com)
 -   **Source:** [GitHub](https://github.com/BnRamadan/bn-p13-Vllol_portfolio)
@@ -310,7 +332,7 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
     [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)](https://vitejs.dev) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![PWA](https://img.shields.io/badge/PWA-Ready-5A5A5A?logo=pwa)](https://web.dev/progressive-web-apps) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
 -   **Features:** Bilingual portfolio, interactive gallery, dark/light theme, PWA ready, smooth animations
 
-### 8. **BnRamadan Store** – Full-Stack MERN E-commerce
+### 9. **BnRamadan Store** – Full-Stack MERN E-commerce
 
 -   **Live:** [bnramadanstore.vercel.app](https://bnramadanstore.vercel.app/)
 -   **Source:** [GitHub](https://github.com/BnRamadan/bn-fs-mern2-e-commerce-all)
@@ -318,22 +340,22 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
     [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js)](https://nodejs.org) [![Express](https://img.shields.io/badge/Express-4.19-000000?logo=express)](https://expressjs.com) [![MongoDB](https://img.shields.io/badge/MongoDB-7-47A248?logo=mongodb)](https://www.mongodb.com) ![MERN](https://img.shields.io/badge/MERN-Stack-FF6B6B?logo=mongodb) [![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)](https://jwt.io) [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://vercel.com)
 -   **Features:** Product browsing, shopping cart, user authentication, admin panel, fully responsive
 
-### 9. **MS NFSA** – WordPress Food Safety Consultant
+### 10. **MS NFSA** – WordPress Food Safety Consultant
 
 -   **Live:** [msnfsa.ifhive.com](https://msnfsa.ifhive.com)
 -   **Tech Stack:**
     [![WordPress](https://img.shields.io/badge/WordPress-6.6-21759B?logo=wordpress)](https://wordpress.org) [![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php)](https://php.net) ![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3) ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
 -   **Features:** Expert profile, NFSA compliance guidance, international standards, bilingual content
 
-### 10. **SG SOC Analyst** – Cybersecurity Portfolio
+### 11. **SG SOC Analyst** – Cybersecurity Portfolio
 
 -   **Live:** [sgsocanalyst.vercel.app](https://sgsocanalyst.vercel.app/)
 -   **Source:** [GitHub](https://github.com/BnRamadan/bn-p12-sg_portfolio)
 -   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://vercel.com)
+    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://vercel.com) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com)
 -   **Features:** Professional showcase, interactive timeline, dark mode UI, fully responsive, performance-first
 
-### 11. **One Piece Slider** – Vanilla JS Anime Slider
+### 12. **One Piece Slider** – Vanilla JS Anime Slider
 
 -   **Live:** [bn-fe-5-one-piece-slider.vercel.app](https://bn-fe-5-one-piece-slider.vercel.app/)
 -   **Source:** [GitHub](https://github.com/BnRamadan/bn-fe-5-one-piece-slider)
