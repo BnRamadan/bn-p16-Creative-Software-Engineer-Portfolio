@@ -351,7 +351,7 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
 ### 11. **SG SOC Analyst** – Cybersecurity Portfolio
 
 -   **Live:** [sgsocanalyst.vercel.app](https://sgsocanalyst.vercel.app/)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p12-sg_portfolio)
+-   **Source:** [GitHub](https://github.com/BnRamadan/bn-p12-SOC-Analyst-Portfolio)
 -   **Tech Stack:**
     [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://vercel.com) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com)
 -   **Features:** Professional showcase, interactive timeline, dark mode UI, fully responsive, performance-first
