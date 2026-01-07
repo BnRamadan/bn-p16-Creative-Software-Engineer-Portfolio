@@ -1,6 +1,6 @@
 # BnRamadan Portfolio
 
-> **Modern, animated, high-performance personal portfolio** showcasing 11+ Completed projects with cutting-edge web technologies and available in +17 languages.
+> **Modern, animated, high-performance Creative Software Engineer portfolio** showcasing 11+ Completed projects with cutting-edge web technologies and available in +17 languages.
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.2-black?logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19_RC-61DAFB?logo=react)](https://react.dev)
@@ -278,7 +278,7 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
 ### 3. **Yoka Canvas** – Bilingual Designer Portfolio
 
 -   **Live:** [yokacanvas.com](https://yokacanvas.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p14-Yokacanvas_portfolio)
+-   **Source:** [GitHub](https://github.com/BnRamadan/bn-p14-Creative_Designer_Portfolio)
 -   **Tech Stack:**
     [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)](https://vitejs.dev) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![PWA](https://img.shields.io/badge/PWA-Ready-5A5A5A?logo=pwa)](https://web.dev/progressive-web-apps) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
 -   **Features:** Bilingual support (EN/AR), dark/light theme, interactive portfolio, PWA capabilities, offline support
@@ -300,7 +300,7 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
     ![Secure Checkout](https://img.shields.io/badge/Secure_Checkout-SSL-4CAF50)
 -   **Features:** Handcrafted leather goods, elegant design, secure transactions, mobile optimized
 
-### 6. **BnRamadan Portfolio** – Creative Fullstack Developer Portfolio
+### 6. **BnRamadan Portfolio** – Creative Software Engineer Portfolio
 
 -   **Live:** [bnramadan.com](https://bnramadan.com/en)
 -   **Source:** [GitHub](https://github.com/BnRamadan/bn-p16-My-Portfolio)
@@ -328,7 +328,7 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
 ### 8. **Vllol** – Video Editing Portfolio
 
 -   **Live:** [vllol.com](https://vllol.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p13-Vllol_portfolio)
+-   **Source:** [GitHub](https://github.com/BnRamadan/bn-p13-Creative-Video_Editor_portfolio)
 -   **Tech Stack:**
     [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)](https://vitejs.dev) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![PWA](https://img.shields.io/badge/PWA-Ready-5A5A5A?logo=pwa)](https://web.dev/progressive-web-apps) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
 -   **Features:** Bilingual portfolio, interactive gallery, dark/light theme, PWA ready, smooth animations
