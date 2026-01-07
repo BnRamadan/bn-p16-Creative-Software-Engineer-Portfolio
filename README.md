@@ -303,7 +303,7 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
 ### 6. **BnRamadan Portfolio** – Creative Software Engineer Portfolio
 
 -   **Live:** [bnramadan.com](https://bnramadan.com/en)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p16-My-Portfolio)
+-   **Source:** [GitHub](https://github.com/BnRamadan/bn-p16-Creative-Software-Engineer-Portfolio)
 -   **Tech Stack:**
     [![Next.js](https://img.shields.io/badge/Next.js-15.2-black?logo=next.js)](https://nextjs.org)
     [![React](https://img.shields.io/badge/React-19_RC-61DAFB?logo=react)](https://react.dev)
