@@ -290,10 +290,10 @@ collaborate or hire, please reach out via the links below.
 **Mohamed Bn Ramadan**
 Full-Stack Developer | Animation Enthusiast | Open Source Lover
 
--   **Portfolio:** [bnramadan.com](https://bnramadan.com)
+-   **Portfolio:** [@BnRamadan](https://bnramadan.com)
 -   **GitHub:** [@BnRamadan](https://github.com/BnRamadan)
--   **Email:** [contact@bnramadan.com](mailto:contact@bnramadan.com)
--   **WhatsApp:** [+20 102 598 0987](https://wa.me/+201025980987)
+-   **Email:** [@BnRamadan](mailto:contact@bnramadan.com)
+-   **WhatsApp:** [@BnRamadan](https://wa.me/+201025980987)
 -   **LinkedIn:** [@BnRamadan](https://www.linkedin.com/in/bnramadan/)
 
 ---
@@ -302,8 +302,8 @@ Full-Stack Developer | Animation Enthusiast | Open Source Lover
 
 For questions, suggestions, or collaboration opportunities:
 
--   **Email:** contact@bnramadan.com
--   **WhatsApp:** [+20 102 598 0987](https://wa.me/+201025980987)
+-   **Email:** [@BnRamadan](mailto:contact@bnramadan.com)
+-   **WhatsApp:** [@BnRamadan](https://wa.me/+201025980987)
 -   **LinkedIn:** [@BnRamadan](https://www.linkedin.com/in/bnramadan/)
 
 ---
