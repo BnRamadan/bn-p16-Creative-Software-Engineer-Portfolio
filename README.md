@@ -1,6 +1,6 @@
 # BnRamadan Portfolio
 
-> **Modern, animated, high-performance Creative Software Engineer portfolio** showcasing 18+ Completed projects with cutting-edge web technologies and available in +17 languages.
+> **Modern, animated, high-performance portfolio platform** — a Creative Software Engineer showcase backed by a custom database-driven CMS, an AI content layer, and full agent/SEO readiness, available in **18 languages**.
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.2-black?logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19_RC-61DAFB?logo=react)](https://react.dev)
@@ -8,12 +8,11 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com)
 [![GSAP](https://img.shields.io/badge/GSAP-3.12-00D084?logo=greensock)](https://gsap.com)
 [![Three.js](https://img.shields.io/badge/Three.js_CDN-0.147-000000?logo=three.js)](https://threejs.org)
-[![Lenis](https://img.shields.io/badge/Lenis-1.1-10B981?logo=scroll)](https://lenis.darkroom.engineering)
-[![Lucide](https://img.shields.io/badge/Lucide_React-0.460-000000?logo=lucide)](https://lucide.dev)
-[![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com)
-[![Vercel Demo](https://img.shields.io/badge/Vercel-Demo_Only-000000?logo=vercel)](https://bnramadan.com)
-[![Hostinger](https://img.shields.io/badge/Hostinger-Production-FF6B00?logo=hostinger)](https://hostinger.ae?REFERRALCODE=bnramadan)
-[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb)](https://www.mongodb.com)
+[![i18n](https://img.shields.io/badge/i18n-18_languages-26A69A?logo=i18next)](https://next-intl.dev)
+[![AI](https://img.shields.io/badge/AI-Multi--provider-8b5cf6?logo=openai&logoColor=white)](#ai-content-tooling)
+[![Vercel](https://img.shields.io/badge/Vercel-Live-000000?logo=vercel)](https://bnramadan.com)
+[![License](https://img.shields.io/badge/License-All_Rights_Reserved-red)](LICENSE)
 
 ---
 
@@ -22,13 +21,16 @@
 -   [Live](#live)
 -   [Features](#features)
     -   [Core Features](#core-features)
+    -   [Headless CMS & Admin](#headless-cms--admin)
+    -   [AI Content Tooling](#ai-content-tooling)
     -   [Interactive Magic](#interactive-magic)
     -   [Project Showcase](#project-showcase)
     -   [Global Localization](#global-localization)
+    -   [Answer-Engine Optimization (AEO)](#answer-engine-optimization-aeo)
 -   [Tech Stack](#tech-stack)
--   [Project Structure](#project-structure)
+-   [Architecture](#architecture)
 -   [Performance & Benchmarks](#performance--benchmarks)
--   [Projects Included](#projects-included)
+-   [Featured Work](#featured-work)
 -   [SEO & Accessibility](#seo--accessibility)
 -   [License](#license)
 -   [Author](#author)
@@ -44,13 +46,31 @@
 
 ### Core Features
 
+-   **Database-Driven Content** – Projects, skills, filters, hero stats, footer & CV all served from MongoDB
 -   **Responsive Design** – Mobile, tablet, desktop optimized
 -   **Smooth Animations** – GSAP with ScrollTrigger for fluid interactions
 -   **High Performance** – Lighthouse 90+ scores across all categories
 -   **Smart Localization** – Auto-detects user country & language (18 languages supported)
 -   **Global SEO** – Hreflang tags & localized metadata for maximum reach
 -   **SEO & Accessibility** – WCAG 2.1 AA compliant, JSON-LD structured data
--   **Zero Config** – Just `pnpm dev` and you're ready to go
+
+### Headless CMS & Admin
+
+-   **No-Code Content Management** – A secure admin dashboard to manage every part of the site — projects, skills, categories/filters, hero statistics, footer links, and the CV — with zero code changes
+-   **Editable Everywhere** – Hero, tagline, about and footer copy are all editable from the dashboard — not just structured data
+-   **Auto-Translation** – New content is automatically translated into all 18 languages on save
+-   **Multi-Category Filtering** – Each project can belong to several filters, with sub-filters (e.g. e-commerce → Shopify / WooCommerce)
+-   **Draft & Publish** – Work on projects privately before they go live
+-   **Drag-and-Drop Ordering, Activity Log & Toasts** – A polished, modern editing experience
+-   **Authenticated & Hardened** – JWT-secured, rate-limited access (implementation details intentionally not documented here)
+-   **Automated Weekly Backups** – Scheduled database snapshots for peace of mind
+
+### AI Content Tooling
+
+-   **AI Description Generator** – Paste a README, a presentation, or rough notes (in any language) and generate a polished project description that matches the site's house style
+-   **AI CV Auto-Fill** – Paste a full CV/resume and the AI structures it into every field of the CV editor
+-   **Multi-Provider Fallback** – Routes across several AI providers automatically, so generation stays fast and resilient
+-   **Built-in Guardrails** – Uses only the facts provided, never invents data, and ignores instructions embedded in the source
 
 ### Interactive Magic
 
@@ -61,11 +81,13 @@
 -   **Page Transition Animations** – Seamless transitions between pages
 -   **Hover Project Previews** – Interactive video previews on project hover
 -   **3D Skills Sphere** – Interactive Three.js sphere showcasing technical skills
+-   **Global Reach Map** – Interactive world map plotting every country a project was delivered in, with hover/keyboard tooltips
+-   **Localized CV Page** – A fully designed, downloadable CV available in all 18 languages with RTL support
 -   **Optimized Preloader** – Lightweight animated bars with synchronized text reveal for instant site visibility
 
 ### Project Showcase
 
--   **12+ Real Projects** – MERN, Shopify, WordPress, and more
+-   **18+ Real Projects** – MERN, Shopify, WordPress, and more
 -   **Smart Filtering** – Filter by category & platform
 -   **Live Demos** – Direct links to deployed projects
 -   **Source Code** – GitHub repositories for each project
@@ -79,91 +101,49 @@
 -   **RTL Support** – Full Right-to-Left layout support for Arabic, Urdu, and Persian.
 -   **Localized Content** – Fully translated interface, projects, and metadata.
 
+### Answer-Engine Optimization (AEO)
+
+Built to be discoverable not just by search engines, but by AI answer engines (ChatGPT, Claude, Perplexity, Gemini):
+
+-   **Dynamic `llms.txt`** – An AI-readable summary of the site, generated live from the database
+-   **AI Crawler Signals** – Explicit `robots.txt` permissions and content-usage signals for answer engines
+-   **WebMCP Tools** – Exposes the portfolio as agent-usable tools (search/open projects, get contact) for AI browsers
+-   **Dynamic Open Graph Images** – A branded share card generated per project
+-   **Rich Structured Data** – Person, Organization & ProfessionalService JSON-LD
+
 ---
 
 ## Tech Stack
 
 | Category         | Technology                 | Purpose                              |
 | ---------------- | -------------------------- | ------------------------------------ |
-| **Framework**    | Next.js 15.2 (React 19 RC) | Server-side rendering & routing      |
-| **Language**     | TypeScript 5.3             | Type-safe development                |
-| **Localization** | next-intl 3.26             | Internationalization & middleware    |
+| **Framework**    | Next.js 15 (React 19)      | SSR, ISR & routing                   |
+| **Language**     | TypeScript 5               | Type-safe development                |
+| **Database**     | MongoDB + Mongoose         | Headless CMS content store           |
+| **Auth**         | JWT + bcrypt               | Secured admin access                 |
+| **AI Layer**     | Multi-provider chat API    | Content generation & CV parsing      |
+| **Localization** | next-intl (18 languages)   | Internationalization & middleware    |
 | **Styling**      | Tailwind CSS 3.4           | Utility-first CSS framework          |
 | **Animations**   | GSAP 3.12 + ScrollTrigger  | Advanced scroll-triggered animations |
-| **3D Graphics**  | Three.js (CDN) 0.147       | Interactive 3D skills visualization  |
+| **3D & Maps**    | Three.js · d3-geo          | Skills sphere & interactive world map|
 | **Scrolling**    | Lenis 1.1                  | Smooth scroll behavior               |
-| **Icons**        | Lucide React 0.460         | Beautiful icon library               |
-| **Analytics**    | Google Analytics 4         | User behavior tracking               |
-| **Build Tool**   | Next.js Built-in           | Optimized bundling & compilation     |
+| **Icons**        | Lucide React               | Icon library                         |
+| **Analytics**    | Google Tag Manager + GA4   | Tag-managed behavior tracking        |
+| **Hosting**      | Vercel                     | Edge network deployment              |
 
 ---
 
-## Project Structure
+## Architecture
 
-```
-portfolio-2.0/
-├── app/                          # Next.js App Router
-│   ├── [locale]/                # Dynamic locale routes
-│   │   ├── _components/         # Page-specific components
-│   │   │   ├── Banner.tsx       # Hero section with animated intro
-│   │   │   ├── AboutMe.tsx      # About section with scroll animations
-│   │   │   ├── Skills.tsx       # 3D interactive skills sphere
-│   │   │   ├── Project.tsx      # Individual project card component
-│   │   │   └── ProjectList.tsx  # Projects grid with filtering
-│   │   ├── projects/            # Project routes
-│   │   │   ├── [slug]/          # Dynamic project detail pages
-│   │   │   │   ├── _components/
-│   │   │   │   │   └── ProjectDetails.tsx
-│   │   │   │   └── page.tsx
-│   │   │   └── allprojects/     # All projects listing page
-│   │   ├── layout.tsx           # Root layout with providers
-│   │   ├── page.tsx             # Home page
-│   │   ├── template.tsx         # Page transition template
-│   │   └── globals.css          # Global styles
-│   └── sitemap.ts               # Dynamic sitemap generation
-├── components/                   # Reusable UI components
-│   ├── Navbar.tsx               # Animated navigation menu
-│   ├── CustomCursor.tsx         # Custom cursor component
-│   ├── ParticleBackground.tsx   # Particle system background
-│   ├── Preloader.tsx            # Loading screen with progress
-│   ├── ScrollProgressIndicator.tsx # Scroll progress bar
-│   ├── SmoothScrollWrapper.tsx  # Lenis scroll wrapper
-│   ├── TransitionLink.tsx       # Animated page transitions
-│   ├── ErrorBoundary.tsx        # Error handling component
-│   ├── Button.tsx               # Reusable button component
-│   ├── SectionTitle.tsx         # Section heading component
-│   ├── ShinyText.tsx            # Animated text effect
-│   └── icons/                   # Custom SVG icons
-├── lib/                          # Utilities & data
-│   ├── data.ts                  # Projects, skills, and general info
-│   ├── utils.ts                 # Helper functions
-│   └── sleep.ts                 # Utility functions
-├── types/                        # TypeScript type definitions
-│   ├── index.ts                 # Project & skill types
-│   └── three.d.ts               # Three.js type declarations
-├── public/                       # Static assets
-│   ├── logo/                    # Logo assets
-│   ├── projects/                # Project video previews
-│   │   ├── deskmoc/             # Desktop video previews
-│   │   └── phonemoc/            # Mobile video previews
-│   ├── manifest.json             # PWA manifest
-│   └── robots.txt                # SEO robots file
-├── next.config.ts                # Next.js configuration
-├── tailwind.config.ts            # Tailwind CSS configuration
-├── tsconfig.json                 # TypeScript configuration
-└── package.json                  # Dependencies & scripts
-```
+A modern Next.js **App Router** application with a clean separation of concerns:
 
-### Key Components Overview
+-   **Presentation** – Server Components for fast, SEO-friendly HTML; Client Components only where interactivity is needed (3D sphere, world map, smooth scroll). Heavy libraries are dynamically imported on demand.
+-   **Internationalization** – Locale-aware routing and middleware that detects the visitor's country and serves the right language, with full RTL support.
+-   **Content layer** – A MongoDB-backed **headless CMS** powers all dynamic content. Public pages read through cached, revalidate-on-edit data loaders; the secured admin dashboard writes to it.
+-   **AI layer** – A provider-agnostic generation service with automatic fallback handles description writing and CV parsing.
+-   **Edge delivery** – Static generation + ISR, optimized media via CDN, and Vercel's edge network for global speed.
 
--   **Banner** – Hero section with animated text, statistics, and call-to-action buttons
--   **AboutMe** – Personal introduction with scroll-triggered animations
--   **Skills** – Interactive 3D sphere displaying 50+ technical skills with drag controls
--   **ProjectList** – Filterable grid of projects with video previews and hover effects
--   **Navbar** – Full-screen animated menu with social links and navigation
--   **CustomCursor** – Desktop-only animated cursor that follows mouse movement
--   **Preloader** – Optimized animated bars with synchronized text reveal, ensuring instant site visibility
--   **ParticleBackground** – Dynamic particle system for visual enhancement
+> Admin, API, and authentication internals are intentionally omitted from this overview.
 
 ---
 
@@ -239,7 +219,7 @@ These are **real measurements** from production, not simulated:
 
 #### **Analytics & Monitoring**
 
--   **Delayed Loading:** Google Analytics/GTM loaded after 3s (improves FCP)
+-   **Tag-Managed:** A single Google Tag Manager container loads GA4 (no duplicate trackers)
 -   **Service Worker:** Smart caching for returning visitors
 -   **Resource Hints:** dns-prefetch + preconnect for critical origins
 
@@ -258,160 +238,13 @@ TTI  ━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ---
 
-## Projects Included
+## Featured Work
 
-### 1. **Tawazun** – MERN Habit Tracker <code>KSA <img src="https://flagcdn.com/20x15/sa.png" alt="Saudi Arabia" height="16" style="vertical-align: middle;" /></code>
+Projects are managed through the built-in CMS and showcased **live** — always current, with no static list to maintain here.
 
--   **Live:** [Tawazun](https://tawazun.bnramadan.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p15-Tawazun-platform-MERN)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js)](https://nodejs.org) [![Express](https://img.shields.io/badge/Express-4.19-000000?logo=express)](https://expressjs.com) [![MongoDB](https://img.shields.io/badge/MongoDB-7-47A248?logo=mongodb)](https://www.mongodb.com) [![Socket.io](https://img.shields.io/badge/Socket.io-4.7-000000?logo=socket.io)](https://socket.io) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![Zustand](https://img.shields.io/badge/Zustand-4-FF6B6B?logo=react)](https://zustand-demo.pmnd.rs) [![React Query](https://img.shields.io/badge/React_Query-4-FF4154?logo=react-query)](https://tanstack.com/query)
--   **Features:** Advanced habit tracking, community features, real-time chat, achievement system, Arabic RTL support
+**Browse the full, up-to-date portfolio:** [bnramadan.com](https://bnramadan.com/en/projects/allprojects)
 
-### 2. **Wild Valley Honey** – Premium Manuka Honey Showcase <code>NZL <img src="https://flagcdn.com/20x15/nz.png" alt="New Zealand" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [Wild valley Honey](https://wildvalleyhoney.com/)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p19-Wild-Valley-Honey)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)](https://vitejs.dev) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![GSAP](https://img.shields.io/badge/GSAP-3.12-00D084?logo=greensock)](https://gsap.com) [![Radix UI](https://img.shields.io/badge/Radix_UI-Latest-000000?logo=radix-ui)](https://www.radix-ui.com/) [![React Query](https://img.shields.io/badge/React_Query-Latest-FF4154?logo=react-query)](https://tanstack.com/query)
--   **Features:** Premium product showcase, interactive animations, MGO rating system, mobile-first design, SEO excellence
-
-### 3. **Fall In Scent** – Shopify Perfume Store <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [fallin-eg.com](https://fallin-eg.com/)
--   **Tech Stack:**
-    [![Shopify](https://img.shields.io/badge/Shopify-2025-95BF47?logo=shopify)](https://shopify.com) [![Liquid](https://img.shields.io/badge/Liquid-Templating-000000?logo=liquid)](https://shopify.github.io/liquid) [![Payment Gateways](https://img.shields.io/badge/Payment_Gateways-Fawry_&_Paymob-FF6B6B)](https://fawry.com) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
--   **Features:** Premium perfume collection, fast delivery, flexible policies, customer reviews, fully responsive
-
-### 4. **Khaled Mo** – Professional Photography Portfolio <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [khaledmo.com](https://khaledmo.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p20-Professional-Photography-Portfolio)
--   **Tech Stack:**
-    [![Next.js](https://img.shields.io/badge/Next.js-15.4.10-black?logo=next.js)](https://nextjs.org) [![React](https://img.shields.io/badge/React-19.0.1-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-Latest-FF6B6B?logo=framer)](https://www.framer.com/motion) [![GSAP](https://img.shields.io/badge/GSAP-3.13.0-00D084?logo=greensock)](https://gsap.com)
--   **Features:** Dynamic photo collections, interactive gallery, sound effects, custom cursor, advanced animations
-
-### 5. **Hosavity** – Enterprise Cloud Hosting Platform <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [hosavity.com](https://hosavity.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p17-Hosavity-co)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?logo=node.js)](https://nodejs.org) [![Express](https://img.shields.io/badge/Express-4.21.2-000000?logo=express)](https://expressjs.com) [![MongoDB](https://img.shields.io/badge/MongoDB-8.9.3-47A248?logo=mongodb)](https://www.mongodb.com) [![Vite](https://img.shields.io/badge/Vite-5.4.20-646CFF?logo=vite)](https://vitejs.dev) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.13.1-FF6B6B?logo=framer)](https://www.framer.com/motion)
--   **Features:** Full MERN Stack, VPS hosting plans, domain services, bilingual AR/EN, admin dashboard, automated emails
-
-### 6. **Yoka Canvas** – Bilingual Designer Portfolio <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [yokacanvas.com](https://yokacanvas.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p14-Creative_Designer_Portfolio)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)](https://vitejs.dev) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![PWA](https://img.shields.io/badge/PWA-Ready-5A5A5A?logo=pwa)](https://web.dev/progressive-web-apps) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
--   **Features:** Bilingual support (EN/AR), dark/light theme, interactive portfolio, PWA capabilities, offline support
-
-### 7. **Jockey MM Kids** – Shopify Kids Clothing Store <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [jockeymm.com](https://www.jockeymm.com)
--   **Tech Stack:**
-    [![Shopify](https://img.shields.io/badge/Shopify-2025-95BF47?logo=shopify)](https://shopify.com) [![Liquid](https://img.shields.io/badge/Liquid-Templating-000000?logo=liquid)](https://shopify.github.io/liquid) ![WooCommerce Migration](https://img.shields.io/badge/WooCommerce→Shopify-Migration-FF6B6B) ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000) ![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
--   **Features:** Kids wear (newborn-15yrs), 100% cotton, winter collections, up to 30% discount, responsive design
-
-### 8. **Yoi Cosmetics** – WooCommerce Hair Care Store <code>JPN <img src="https://flagcdn.com/20x15/jp.png" alt="Japan" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [yoi-cosmetics.com](https://yoi-cosmetics.com/)
--   **Tech Stack:**
-    [![WordPress](https://img.shields.io/badge/WordPress-6.6-21759B?logo=wordpress)](https://wordpress.org) [![WooCommerce](https://img.shields.io/badge/WooCommerce-8-96588A?logo=woocommerce)](https://woocommerce.com) [![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php)](https://php.net) ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)![Bundle Offers](https://img.shields.io/badge/Bundle_Offers-Dynamic-FF6B6B)
--   **Features:** Premium hair care products, exclusive bundles, dynamic pricing, responsive design, Arabic RTL
-
-### 9. **Baly Leather** – EasyOrders Leather Store <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [balyleather.net](https://balyleather.net/)
--   **Tech Stack:**
-    ![EasyOrders](https://img.shields.io/badge/EasyOrders-Platform-FF6B6B)
-    ![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3)
-    ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)
-    ![Secure Checkout](https://img.shields.io/badge/Secure_Checkout-SSL-4CAF50)
--   **Features:** Handcrafted leather goods, elegant design, secure transactions, mobile optimized
-
-### 10. **BnRamadan Portfolio** – Creative Software Engineer Portfolio <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [bnramadan.com](https://bnramadan.com/en)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p16-Creative-Software-Engineer-Portfolio)
--   **Tech Stack:**
-    [![Next.js](https://img.shields.io/badge/Next.js-15.2-black?logo=next.js)](https://nextjs.org)
-    [![React](https://img.shields.io/badge/React-19_RC-61DAFB?logo=react)](https://react.dev)
-    [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org)
-    [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com)
-    [![GSAP](https://img.shields.io/badge/GSAP-3.12-00D084?logo=greensock)](https://gsap.com)
-    [![Three.js](https://img.shields.io/badge/Three.js_CDN-0.147-000000?logo=three.js)](https://threejs.org)
-    [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com)
-    [![Lucide](https://img.shields.io/badge/Lucide_React-0.460-000000?logo=lucide)](https://lucide.dev)
-
--   **Features:** Modern, animated, high-performance personal portfolio available in +17 languages.
-
-### 11. **Thermo Egypt** – Shopify Winter Wear Store <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [thermoegypt.com](https://thermoegypt.com)
-
--   **Tech Stack:**
-    [![Shopify](https://img.shields.io/badge/Shopify-2025-95BF47?logo=shopify)](https://shopify.com) [![Liquid](https://img.shields.io/badge/Liquid-Templating-000000?logo=liquid)](https://shopify.github.io/liquid) ![WooCommerce Migration](https://img.shields.io/badge/WooCommerce→Shopify-Migration-FF6B6B) ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000) ![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
--   **Features:** Thermal clothing collections, exclusive discounts, fast checkout, fully responsive
-
-### 12. **Vllol** – Video Editing Portfolio <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [vllol.com](https://vllol.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p13-Creative-Video_Editor_portfolio)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)](https://vitejs.dev) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![PWA](https://img.shields.io/badge/PWA-Ready-5A5A5A?logo=pwa)](https://web.dev/progressive-web-apps) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
--   **Features:** Bilingual portfolio, interactive gallery, dark/light theme, PWA ready, smooth animations
-
-### 13. **Heba Abd El-Razek** – Transformational Leadership Portfolio <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [hebaabdelrazek.bnramadan.com](https://hebaabdelrazek.bnramadan.com)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p18-Transformational-Leadership-Consultant)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Vite](https://img.shields.io/badge/Vite-5.4.20-646CFF?logo=vite)](https://vitejs.dev) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.13.1-FF6B6B?logo=framer)](https://www.framer.com/motion) [![GSAP](https://img.shields.io/badge/GSAP-3.14.2-00D084?logo=greensock)](https://gsap.com)
--   **Features:** Transformation Room, cinematic hero, executive mentorship, smooth animations, bilingual support
-
-### 14. **FAW4U** – HR Consultancy & Facility Management <code>DEU <img src="https://flagcdn.com/20x15/de.png" alt="Germany" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [faw4u.com](https://faw4u.com)
--   **Tech Stack:**
-    [![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?logo=vue.js)](https://vuejs.org) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) ![GoDaddy](https://img.shields.io/badge/GoDaddy-Builder-000000?logo=godaddy) ![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3) ![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
--   **Features:** HR Consultancy, workforce management, hospitality services, facility management, technical trading
-
-### 15. **BnRamadan Store** – Full-Stack MERN E-commerce <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [bnramadanstore.vercel.app](https://bnramadanstore.vercel.app/)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-fs-mern2-e-commerce-all)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js)](https://nodejs.org) [![Express](https://img.shields.io/badge/Express-4.19-000000?logo=express)](https://expressjs.com) [![MongoDB](https://img.shields.io/badge/MongoDB-7-47A248?logo=mongodb)](https://www.mongodb.com) ![MERN](https://img.shields.io/badge/MERN-Stack-FF6B6B?logo=mongodb) [![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)](https://jwt.io) [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://vercel.com)
--   **Features:** Product browsing, shopping cart, user authentication, admin panel, fully responsive
-
-### 16. **MS NFSA** – WordPress Food Safety Consultant <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [msnfsa.ifhive.com](https://msnfsa.ifhive.com)
--   **Tech Stack:**
-    [![WordPress](https://img.shields.io/badge/WordPress-6.6-21759B?logo=wordpress)](https://wordpress.org) [![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php)](https://php.net) ![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3) ![Arabic RTL](https://img.shields.io/badge/Arabic_RTL-Supported-000000)![SEO](https://img.shields.io/badge/SEO-Optimized-4285F4?logo=google)
--   **Features:** Expert profile, NFSA compliance guidance, international standards, bilingual content
-
-### 17. **SG SOC Analyst** – Cybersecurity Portfolio <code>EGY <img src="https://flagcdn.com/20x15/eg.png" alt="Egypt" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [sgsocanalyst.vercel.app](https://sgsocanalyst.vercel.app/)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-p12-SOC-Analyst-Portfolio)
--   **Tech Stack:**
-    [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?logo=tailwind-css)](https://tailwindcss.com) [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10-FF6B6B?logo=framer)](https://www.framer.com/motion) [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)](https://vercel.com) [![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next)](https://react.i18next.com)
--   **Features:** Professional showcase, interactive timeline, dark mode UI, fully responsive, performance-first
-
-### 18. **One Piece Slider** – Vanilla JS Anime Slider <code>USA <img src="https://flagcdn.com/20x15/us.png" alt="USA" height="16" style="vertical-align: middle;" /></code>
-
--   **Live:** [bn-fe-5-one-piece-slider.vercel.app](https://bn-fe-5-one-piece-slider.vercel.app/)
--   **Source:** [GitHub](https://github.com/BnRamadan/bn-fe-5-one-piece-slider)
--   **Tech Stack:**
-    [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) ![DOM](https://img.shields.io/badge/DOM-Manipulation-000000?logo=javascript)![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-Pure-FF6B6B)![Responsive](https://img.shields.io/badge/Responsive-Design-4285F4?logo=css3)
--   **Features:** Interactive bounty cards, smooth slider, pirate design, mobile responsive, lightweight
-
----
-
-_Each project includes live URL, source code, video preview, and interactive tech badges._
+Each project page includes a live demo, source link (where available), an auto-playing video preview, the tech stack, and a localized description.
 
 ---
 
@@ -427,7 +260,9 @@ _Each project includes live URL, source code, video preview, and interactive tec
 -   **Hreflang Tags** – Correct language targeting for Google
 -   **Localized Metadata** – Dynamic titles, descriptions, and keywords for every language
 -   **Dynamic Sitemap** – Auto-generated sitemap for all routes and locales
--   **robots.txt** – Search engine crawling instructions
+-   **robots.txt** – Crawl rules with explicit signals for AI answer engines
+-   **`llms.txt` & WebMCP** – AI-agent-readable site summary and agent tools (AEO)
+-   **Dynamic OG Images** – Branded share cards generated per project
 
 ### Accessibility (WCAG 2.1 AA)
 
@@ -442,7 +277,11 @@ _Each project includes live URL, source code, video preview, and interactive tec
 
 ## License
 
-[MIT License](LICENSE) – Free to use, modify, and learn from.
+© Mohamed Bn Ramadan — **All rights reserved.**
+
+This repository is shared publicly for **showcase and reference only**. It is **not**
+licensed for reuse, redistribution, or deployment as your own. If you'd like to
+collaborate or hire, please reach out via the links below.
 
 ---
 
@@ -471,9 +310,9 @@ For questions, suggestions, or collaboration opportunities:
 
 ## Project Info
 
-**Last Updated:** January 2026
-**Version:** 4.3.0
-**Status:** Active Development
+**Last Updated:** June 2026
+**Version:** 3.0.0 — database-driven platform with AI tooling
+**Status:** Live in Production
 
 ---
 
