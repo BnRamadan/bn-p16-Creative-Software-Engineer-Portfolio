@@ -1,18 +1,10 @@
 <div align="center">
 
-<br/>
-
-<img src="public/logo/bn-logo.png" alt="BnRamadan" width="110" />
-
-<br/>
-<br/>
-
-# بن رمضان
 ### BnRamadan
 
 **A portfolio that runs itself.**
 
-*One engineer's work, presented by a platform built with the same care as the work it presents.*
+_One engineer's work, presented by a platform built with the same care as the work it presents._
 
 <br/>
 
@@ -159,22 +151,22 @@ links below let a stranger take them again without trusting this document.
 [![GTmetrix](https://img.shields.io/badge/GTmetrix-Grade_A-00D084?logo=gtmetrix&logoColor=white)](https://gtmetrix.com/)
 [![Best Practices](https://img.shields.io/badge/Best_Practices-100%2F100-success?logo=google&logoColor=white)](https://pagespeed.web.dev/)
 
-| Platform | Performance | SEO | Accessibility |
-| :-- | :--: | :--: | :--: |
+| Platform                        |                  Performance                   |                       SEO                        |                   Accessibility                    |
+| :------------------------------ | :--------------------------------------------: | :----------------------------------------------: | :------------------------------------------------: |
 | **Google Lighthouse (Desktop)** | ![93](https://img.shields.io/badge/93-success) | ![100](https://img.shields.io/badge/100-success) | ![94](https://img.shields.io/badge/94-brightgreen) |
-| **Google Lighthouse (Mobile)** | ![82](https://img.shields.io/badge/82-success) | ![100](https://img.shields.io/badge/100-success) | ![94](https://img.shields.io/badge/94-brightgreen) |
-| **GTmetrix** | ![85](https://img.shields.io/badge/85-success) | ![100](https://img.shields.io/badge/100-success) | ![94](https://img.shields.io/badge/94-brightgreen) |
+| **Google Lighthouse (Mobile)**  | ![82](https://img.shields.io/badge/82-success) | ![100](https://img.shields.io/badge/100-success) | ![94](https://img.shields.io/badge/94-brightgreen) |
+| **GTmetrix**                    | ![85](https://img.shields.io/badge/85-success) | ![100](https://img.shields.io/badge/100-success) | ![94](https://img.shields.io/badge/94-brightgreen) |
 
 Real measurements from production, held against Google's own bar:
 
-| Metric | Value | Google Standard | Status |
-| :-- | :--: | :--: | :--: |
-| **LCP** (Largest Contentful Paint) | `1.1s` | < 2.5s | 🟢 Excellent |
-| **FCP** (First Contentful Paint) | `1.0s` | < 1.8s | 🟢 Excellent |
-| **TBT** (Total Blocking Time) | `260ms` | < 300ms | 🟢 Excellent |
-| **CLS** (Cumulative Layout Shift) | `0.00` | < 0.1 | 🟢 Perfect |
-| **TTFB** (Time to First Byte) | `~400ms` | < 800ms | 🟢 Fast |
-| **Speed Index** | `1.8s` | < 3.4s | 🟢 Fast |
+| Metric                             |  Value   | Google Standard |    Status    |
+| :--------------------------------- | :------: | :-------------: | :----------: |
+| **LCP** (Largest Contentful Paint) |  `1.1s`  |     < 2.5s      | 🟢 Excellent |
+| **FCP** (First Contentful Paint)   |  `1.0s`  |     < 1.8s      | 🟢 Excellent |
+| **TBT** (Total Blocking Time)      | `260ms`  |     < 300ms     | 🟢 Excellent |
+| **CLS** (Cumulative Layout Shift)  |  `0.00`  |      < 0.1      |  🟢 Perfect  |
+| **TTFB** (Time to First Byte)      | `~400ms` |     < 800ms     |   🟢 Fast    |
+| **Speed Index**                    |  `1.8s`  |     < 3.4s      |   🟢 Fast    |
 
 ```
 TTFB  ━━━━                                      0.4s
@@ -261,8 +253,8 @@ Creative full-stack engineer. Builds fast, animated, multilingual web products e
 
 **بن رمضان**
 
-*"Built with passion, animated with precision, deployed in seconds."*
+_"Built with passion, animated with precision, deployed in seconds."_
 
-*The site is the résumé.*
+_The site is the résumé._
 
 </div>
